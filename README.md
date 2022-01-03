@@ -1,6 +1,12 @@
 # integer-factorization
 A simple GNU BigNum approach to Integer Factorization.
 
+Build: 
+  - ./factor -build [TBL_DIR="table/"] 
+  
+Run:
+  - ./factor -factor [TRIES=30 [TBL_DIR="table/"]]] 
+
 Basic idea:
 - ∃ set of numbers **S**<sub>n</sub> such that for any distinct primes _a_, _b_ ≤ √(_n_), ∃ integer _m_ ∈ **S**<sub>n</sub> such that _a_ | _m_ /\ ~(_b_ | _m_)
 - Let |**S**<sub>n</sub>| = _l_, then (_l_ choose (_l_ / 2)) ≥ **pi**(√(_n_)), where **pi**(_x_) = (# of primes <= _x_)
