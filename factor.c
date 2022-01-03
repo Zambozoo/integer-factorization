@@ -412,7 +412,7 @@ void factor(const char* folder, int tries) { //Randomly select entry in table an
     mpz_clear(n);
 }
 void usage() {
-    printf("Usage: ./parker_factor [-build [TBL_DIR=\"table/\"] | -factor [TRIES=30 [TBL_DIR=\"table/\"]]] \n");
+    printf("Usage: ./factor [-build [TBL_DIR=\"table/\"] | -factor [TRIES=30 [TBL_DIR=\"table/\"]]] \n");
     exit(-1);
 }
 #pragma endregion
