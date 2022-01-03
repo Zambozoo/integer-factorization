@@ -1,5 +1,5 @@
 # integer-factorization
-A simple GNU BigNum approach to Integer Factorization. Requires GNU. Limited since it needs to generate all primes <= _n_ where n is the largest factorizable integer.
+A simple GNU BigNum approach to Integer Factorization. Requires GNU. Limited since it needs to generate all primes ≤ _n_ where n is the largest factorizable integer.
 
 Build: 
   - gcc -o factor factor.c -lgmp -lm -O3
